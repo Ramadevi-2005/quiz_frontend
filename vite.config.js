@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/quizbuilder/"   // 👈 important for Tomcat subpath
+  base: '/quiz_front/',   // 👈 important for Tomcat subpath
 })
